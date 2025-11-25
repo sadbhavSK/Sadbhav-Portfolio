@@ -355,8 +355,7 @@ function App() {
               </div>
 
               <p className="github-progress-note">
-                My goal for this year is to maintain a steady weekly commit habit and keep
-                shipping mini-projects that reflect what I am learning.
+                
               </p>
             </div>
           </div>
