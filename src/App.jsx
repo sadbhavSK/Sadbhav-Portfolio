@@ -287,9 +287,7 @@ function App() {
           <div className="container">
             <h2>GitHub Statistics &amp; Calendar</h2>
             <p className="section-intro">
-              I regularly push code to GitHub to practise problem-solving, explore new
-              ideas and turn concepts into small projects. Here is a quick overview of my
-              current activity and progress as a learner and fresher.
+             
             </p>
 
             <div className="github-stats-layout">
