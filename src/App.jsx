@@ -282,40 +282,82 @@ function App() {
           </div>
         </section>
 
-      {/* GitHub Stats & Calendar */}
-<section id="github" className="section section-alt">
-  <div className="container">
-    <h2>GitHub Statistics &amp; Calendar</h2>
-    <p className="section-intro">
-      These stats are fetched live from my GitHub profile (<strong>sadbhavSK</strong>).
-    </p>
+        {/* GitHub Stats & Calendar */}
+        <section id="github" className="section section-alt">
+          <div className="container">
+            <h2>GitHub Statistics &amp; Calendar</h2>
+            <p className="section-intro">
+             
+            </p>
 
-    <div className="github-stats-layout">
+            <div className="github-stats-layout">
+              <div className="github-summary-card">
+                <h3>sadbhavSK&apos;s GitHub Stats</h3>
+                <p className="github-summary-subtitle">
+                  I am gradually increasing my activity and focusing on writing small but
+                  meaningful commits instead of just pushing large chunks of code.
+                </p>
+                <div className="github-summary-grid">
+                  <div className="github-summary-left">
+                    <ul>
+                      <li>
+                        <span>Total Stars Earned:</span>
+                        <strong>0</strong>
+                      </li>
+                      <li>
+                        <span>Total Commits (last year):</span>
+                        <strong>32</strong>
+                      </li>
+                      <li>
+                        <span>Total PRs:</span>
+                        <strong>0</strong>
+                      </li>
+                      <li>
+                        <span>Total Issues:</span>
+                        <strong>0</strong>
+                      </li>
+                      <li>
+                        <span>Repositories contributed to (last year):</span>
+                        <strong>0</strong>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="github-summary-right">
+                    <div className="github-grade-circle">
+                      <span className="github-grade-letter">C</span>
+                    </div>
+                    <p className="github-grade-caption">
+                      Current contribution level. I am working on moving this up by
+                      committing regularly and taking up more mini-projects.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-      {/* Overall GitHub Stats */}
-      <img
-        className="github-card"
-        src="https://github-readme-stats.vercel.app/api?username=sadbhavSK&show_icons=true&theme=react"
-        alt="GitHub overall stats"
-      />
+              <div className="github-contrib-card">
+                <div className="github-contrib-item">
+                  <p className="github-contrib-label">Total Contributions</p>
+                  <p className="github-contrib-value">48</p>
+                  <p className="github-contrib-meta">Sep 8, 2023 - Present</p>
+                </div>
+                <div className="github-contrib-item">
+                  <p className="github-contrib-label">Current Streak</p>
+                  <p className="github-contrib-value">0</p>
+                  <p className="github-contrib-meta">Nov 24</p>
+                </div>
+                <div className="github-contrib-item">
+                  <p className="github-contrib-label">Longest Streak</p>
+                  <p className="github-contrib-value">3</p>
+                  <p className="github-contrib-meta">Feb 28 - Mar 2</p>
+                </div>
+              </div>
 
-      {/* Streak Stats */}
-      <img
-        className="github-card"
-        src="https://github-readme-streak-stats.herokuapp.com?user=sadbhavSK&theme=react"
-        alt="GitHub contribution streak"
-      />
-
-      {/* Top Languages */}
-      <img
-        className="github-card"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=sadbhavSK&layout=compact&theme=react"
-        alt="Top languages"
-      />
-    </div>
-  </div>
-</section>
-
+              <p className="github-progress-note">
+                
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Contact Section */}
         <section id="contact" className="section">
